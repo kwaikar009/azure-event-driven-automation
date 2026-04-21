@@ -18,20 +18,7 @@ This project automates a multi-step business data pipeline on Azure. A custom Py
 
 ## Architecture
 
-```
-  +---------+    File Upload    +----------------------+
-  |  Users  | --------------->  |   Azure VM (Ubuntu)   |
-  +---------+                  |   Python Program      |
-                               +----------+-----------+
-                                          |
-                          +--------------+----------------+
-                          |                               |
-               +------------------+          +---------------------+
-               |  Azure Blob      |          |  Azure Database     |
-               |  Storage         |          |  for MySQL          |
-               |  (CSV output)    |          |  (structured data)  |
-               +------------------+          +---------------------+
-```
+![Architecture Diagram](architecture.png)
 
 ### Architecture Implementation
 
