@@ -33,4 +33,3 @@ Thumbs.db
 htmlcov/
 
 # Credentials — never commit files containing passwords or connection strings
-process.py

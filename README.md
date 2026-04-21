@@ -175,6 +175,32 @@ Bob|25|Austin
 
 ---
 
+
+## Screenshots
+
+### VM Creation
+![VM Creation](screenshots/VM_Creation.png)
+
+### Storage Account Creation
+![Storage Account Creation](screenshots/Storage_account_creation.png)
+
+### MySQL Database Creation
+![MySQL Database Creation](screenshots/Mysql_Database_creation.png)
+
+### Database Table Creation
+![Database Table Creation](screenshots/Database_Table_creation.png)
+
+### Successful Execution of process.py
+![Successful Process.py Running](screenshots/Successful_Process_py_running.png)
+
+### CSV File Uploaded in Blob Storage Container
+![CSV File Uploaded](screenshots/CSV_file_uploaded_in_storage_blob_container.png)
+
+### Retrieving Records from Database Table
+![Retrieving Table Records](screenshots/Retrieving_table_records_from_database_table.png)
+
+---
+
 ## Running Tests
 
 ```bash
@@ -201,4 +227,3 @@ This project is licensed under the [MIT License](LICENSE).
 
 **Your Name**  
 [LinkedIn](https://linkedin.com/in/yourprofile) | [GitHub](https://github.com/yourusername)
-# azure-event-driven-automation
