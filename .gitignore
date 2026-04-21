@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+env/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Azure
+.azure/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Credentials — never commit files containing passwords or connection strings
+process.py

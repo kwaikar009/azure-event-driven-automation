@@ -1,0 +1,14 @@
+# Python Dependencies
+# Install individually on the Azure Ubuntu VM using the commands below:
+#
+#   sudo apt update
+#   sudo apt install python3
+#   sudo apt install python3-pip
+#   sudo pip3 install pandas
+#   sudo pip3 install azure-storage-blob
+#   sudo pip3 install mysql-connector-python
+#   sudo apt install mysql-client-core-8.0
+
+pandas
+azure-storage-blob
+mysql-connector-python
