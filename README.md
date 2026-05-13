@@ -13,7 +13,13 @@ The system processes raw input files using a Python-based automation engine, con
 
 ---
 
-## 📐 Architecture
+## 📐 Architecture Overview
+
+The system follows a simple ETL-style cloud architecture:
+
+Users upload raw data → Azure VM processes data → CSV stored in Blob Storage → structured data stored in MySQL (VM-based)
+
+Refer to the architecture diagram below for visual representation.
 
 ![Architecture Diagram](architecture.png)
 
